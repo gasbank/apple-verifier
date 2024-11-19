@@ -58,9 +58,9 @@ type AppleReceipt struct {
 }
 
 func main() {
-	log.Println("apple-receipt-verifier: Voided Receipt Checker")
+	log.Println("apple-verifier: Voided Apple Receipt Checker")
 
-	log.Println("apple-receipt-verifier: load .env file")
+	log.Println("apple-verifier: load .env file")
 	err := godotenv.Load(".env")
 	if err != nil {
 		panic(err)
